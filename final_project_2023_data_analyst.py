@@ -23,16 +23,16 @@ countries?
 
 # Preprocessing:
 # 1. Consolidate columns from all dataframe through years
-# - (rename, replace) -- OK
-# - create a column to store information about year: df['year'] = 2019 -- OK
+# - (rename, replace)
+# - create a column to store information about year: df['year'] = 2019 
 # 2. Country and region mismatch
-# - take df2016 --> list_of_standard_countries / list_of_standard_regions -- OK
-# - standardize all other dataframes to have the same list of countries and regions. E.g. 2019 --> split column "country or region" to 2 separate columns -- OK
-# 3. concatenate all dataframes -- OK
+# - take df2016 --> list_of_standard_countries / list_of_standard_regions
+# - standardize all other dataframes to have the same list of countries and regions. E.g. 2019 --> split column "country or region" to 2 separate columns 
+# 3. concatenate all dataframes
 
 # Table of content:
-# 1. Overall by regions: world map with score (latest - 2019) --> highest score regions / countries -- OK
-# 2. Trend through time -- lineplot (X: years / y: country / hue: region (countries in the same region close together) -- Nearly ! FIXED top/bottom 5 scored.
+# 1. Overall by regions: world map with score (latest - 2019) --> highest score regions / countries
+# 2. Trend through time -- lineplot (X: years / y: country / hue: region (countries in the same region close together)
 # 3. [External research] Predefined model for scoring --> correlation with Score (barplot): clarify the most/least important features --> recommended focused actions to improve overall score
 # 4. Top/bottom 5 scored countries --> compare these countries in terms of other features --> common characteristics / best practices / outliers(such as freedom in top bottom ...)
 
